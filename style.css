@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sigin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid blue 2px; */
+    width: 320px;
+    margin-top: 20px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.checkbox{
+   display: flex;
+   /* border: solid red 2px; */
+   
+}
+
+.text-form{
+    width: 65%;
+    height: 100%;
+   background-image: url(./images/Sublime\ Vivid.jpg);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-form h1{
+    color: white;
+    font-size: 110px;
+}
+.check{
+    display: flex;
+    width: 25px;
+    
+}
+.text-form h2{
+    color: white;
+    font-size: 50px; 
+    margin-top: 20px;
+}
+.text-form p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.form-section{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imglogo{
+    width: 120px;
+    margin-top: 20px;
+    
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.form h4{
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.Email{
+    margin-top: 80px;
+    border: none;
+    font-size: 16px;
+    color: gray;
+    margin-right: 100px;
+}
+
+
+.form hr{
+    width: 300px;
+    height: 2px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.form button{
+    color: white;
+    background-color: rgb(94, 94, 255);
+    width: 320px;
+    height: 40px;
+    font-size: 18px;
+   border: 10px;
+    margin-top: 20px;
+
+}
+
+.form span{
+    font-size: 15px;
+    
+}
+
+.form h5{
+    margin-top: 22px;
+    font-size: 17px;
+}
+
+.form span hr{
+    width: 3px;
+    height: 19px;
+    background-color: black;
+}
+
+.form span a{
+    margin-right: 40px;
+}
+
+.form span input{
+    margin-left: 65px;
+}
+.spn{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color: blue;
+}
+.iconimg{
+    width: 20px;
+
+}
